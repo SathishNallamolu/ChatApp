@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="5dp">
+
+    <View
+        android:id="@+id/sathish"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_single_image"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/calendar" />
+
+    <TextView
+        android:id="@+id/user_single_name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/user_single_image"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/user_single_image"
+        android:text="Display Name"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_single_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/user_single_image"
+        android:layout_alignStart="@+id/user_single_name"
+        android:layout_marginTop="10dp"
+        android:text="User default Status"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/user_single_online_icon"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="65dp"
+        android:layout_alignTop="@+id/user_single_status"
+        android:layout_alignStart="@+id/user_single_status"
+        android:src="@mipmap/dot"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="log_out">LogOut</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_status">Hey there! I am using ChatApp.</string>
+    <string name="simsimi_api">b53d1468-d7e7-495c-b7d7-324624ee5f4a</string>
+</resources>
